@@ -3,6 +3,7 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Yacht form page" />
+			<Item Name="LocalizableStrings.Button_8ak6f0a_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.CategoriesMultiSelect_label.Value" Value="Categories" />
 			<Item Name="LocalizableStrings.ExpansionPanel_4e85ect_title.Value" Value="Yacht rental" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_bq52orr_caption.Value" Value="New" />
@@ -15,6 +16,8 @@
 			<Item Name="LocalizableStrings.PassangerCountCannotBeLess.Value" Value="Passangers count cannot be less than 2." />
 			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 200 EUR." />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me" />
+			<Item Name="LocalizableStrings.RunAvgProcessMenuItem_caption.Value" Value="Run average ticket price process" />
+			<Item Name="LocalizableStrings.RunAvgProcessMenuItem_clicked_params_notificationText.Value" Value="Process started YEAH!!!" />
 			<Item Name="LocalizableStrings.addRecord_3p8ijtb_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_4ixbb1k_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_bxoao1k_caption.Value" Value="Add new" />

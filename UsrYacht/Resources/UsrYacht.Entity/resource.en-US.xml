@@ -10,7 +10,7 @@
 			<Item Name="Columns.UsrManager.Caption" Value="Manager" />
 			<Item Name="Columns.UsrName.Caption" Value="Name" />
 			<Item Name="Columns.UsrNumber.Caption" Value="Number" />
-			<Item Name="Columns.UsrPassangersCount.Caption" Value="Passanger count" />
+			<Item Name="Columns.UsrPassengersCount.Caption" Value="Passenger count" />
 			<Item Name="Columns.UsrPrice.Caption" Value="Price per day, EUR" />
 			<Item Name="Columns.UsrStatus.Caption" Value="Status" />
 			<Item Name="Columns.UsrTicketPrice.Caption" Value="Ticket Price, EUR" />

@@ -41,7 +41,7 @@
 }
 + MetaData.Schema.D2 {
   "UId": "fe2b2847-691d-7c80-085c-06a8b42941c0",
-  "A2": "UsrPassangersCount",
+  "A2": "UsrPassengersCount",
   "A3": "4a3d83c5-86b8-490e-ad11-4e11978a16a7",
   "A4": "4a3d83c5-86b8-490e-ad11-4e11978a16a7",
   "A5": "62202779-5711-4f2d-ae40-de4e7c43c3ba",
