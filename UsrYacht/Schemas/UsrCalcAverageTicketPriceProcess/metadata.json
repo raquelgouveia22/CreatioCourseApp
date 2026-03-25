@@ -62,6 +62,7 @@
       ],
       "IJ1": true,
       "BK8": "bb4d6607-026b-4b27-b640-8f5c77c1e89d",
+      "IJ7": false,
       "IJ10": true,
       "BK15": [
         {
@@ -354,6 +355,7 @@
           "A5": "2139a7e6-2aed-4675-81ef-bc694e3eee55",
           "BL7": "11a47caf-a0d5-41fa-a274-a0b11f77447a",
           "BL8": "63cb3660-ba78-490a-ade2-0ae2571bc356",
+          "BM1": 0,
           "BM4": [
             {
               "BL1": "Terrasoft.Core.Process.ProcessSchemaLane",
@@ -388,7 +390,8 @@
           "BL8": "63cb3660-ba78-490a-ade2-0ae2571bc356",
           "BN2": "31;31",
           "BO3": true,
-          "FC1": []
+          "FC1": [],
+          "ED1": false
         },
         {
           "BL1": "Terrasoft.Core.Process.ProcessSchemaTerminateEvent",
