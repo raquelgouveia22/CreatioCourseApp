@@ -54,7 +54,7 @@ define("UsrAverageTicketPriceOutputPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, fu
 					"placeholder": "",
 					"tooltip": "",
 					"readonly": true,
-					"multiline": false,
+					"multiline": true,
 					"labelPosition": "auto",
 					"visible": true
 				},

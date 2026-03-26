@@ -244,22 +244,22 @@
                           "BRF1": [
                             {
                               "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.ParameterMapping",
-                              "UId": "f798fd23-3b45-db14-ef96-94f8b06695bc",
+                              "UId": "89126ed4-d79c-dda5-ac39-bb7b0212433f",
                               "BRP1": "UsrYachtIdParameter",
                               "BRP2": {
                                 "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleAttributeExpression",
-                                "UId": "e6902b27-9627-4b0e-9106-d88b5f9ebe7a",
+                                "UId": "c97a5018-6af4-48b6-f075-187c50b75c9c",
                                 "BRE2": "AttributeValue",
                                 "BRX1": "Id"
                               }
                             },
                             {
                               "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.ParameterMapping",
-                              "UId": "040327c7-c376-397b-4686-e0991a0f960e",
+                              "UId": "ae36913e-aad7-8679-0f39-6b16a3fc87b3",
                               "BRP1": "UsrYachtfieldValuesParameter",
                               "BRP2": {
                                 "JI0": "Terrasoft.Core.BusinessRules.Models.Expressions.BusinessRuleContextExpression",
-                                "UId": "87ad26de-768b-97c9-e34e-fbed95942ff9"
+                                "UId": "d2a3e88e-d1f4-2364-d1ce-50158c40f239"
                               }
                             }
                           ],
@@ -267,7 +267,7 @@
                             "UId": "9efe28c3-81f9-d38a-3d99-06ad017518bd",
                             "A2": "",
                             "BSA1": "PowerFx",
-                            "BSA2": "#UsrYachtRecord.UsrPrice#/#UsrYachtRecord.UsrPassangersCount#",
+                            "BSA2": "#UsrYachtRecord.UsrPrice#/#UsrYachtRecord.UsrPassengersCount#",
                             "BSA3": "Text",
                             "BSA4": [
                               {
@@ -328,8 +328,8 @@
               },
               {
                 "JI0": "Terrasoft.Core.BusinessRules.Models.Trigger",
-                "UId": "0a9909ce-e528-a43e-f4dd-f84d17144be5",
-                "BRT1": "UsrPassangersCount"
+                "UId": "5c4c459c-f6e5-2056-b412-bbad3e532e80",
+                "BRT1": "UsrPassengersCount"
               }
             ],
             "BR3": "BusinessRule_8f27793"
