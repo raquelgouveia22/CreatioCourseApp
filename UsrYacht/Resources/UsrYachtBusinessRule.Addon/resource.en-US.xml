@@ -5,6 +5,7 @@
 			<Item Name="AddonConfig.Rules.02be4fd0-f58d-08ea-f11a-cf866f60a22a.Caption" Value="Apply static filter: Manager" />
 			<Item Name="AddonConfig.Rules.0a0b240d-978b-f28f-a057-6c87f5f845b8.Caption" Value="Set values: Ticket Price, EUR" />
 			<Item Name="AddonConfig.Rules.81f30e8d-46a9-e82a-45ec-bbaf3373414b.Caption" Value="ChildRule-d1563114-b069-5592-be5b-c0441ac91874-PopulateValue" />
+			<Item Name="AddonConfig.Rules.87eba797-242b-741d-147b-1175a1805e2d.Caption" Value="Apply filter: Captain" />
 			<Item Name="AddonConfig.Rules.d1563114-b069-5592-be5b-c0441ac91874.Caption" Value="Apply filter: City" />
 			<Item Name="AddonConfig.Rules.f3e485b1-843b-2ece-0d07-d04a9c8a6bad.Caption" Value="ChildRule-d1563114-b069-5592-be5b-c0441ac91874-ClearValue" />
 			<Item Name="Caption" Value="Yacht (Business rules)" />

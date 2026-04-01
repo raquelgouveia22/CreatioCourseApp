@@ -164,12 +164,56 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 			},
 			{
 				"operation": "insert",
-				"name": "Price",
+				"name": "NumberInput_mwmjmim",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
 						"row": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrLength_t4uw4l1",
+					"control": "$PDS_UsrLength_t4uw4l1",
+					"readonly": false,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": ""
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "NumberInput_udnlnif",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrCrewCount_eytacla",
+					"control": "$PDS_UsrCrewCount_eytacla",
+					"readonly": false,
+					"placeholder": "",
+					"labelPosition": "auto",
+					"tooltip": ""
+				},
+				"parentName": "SideAreaProfileContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "Price",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 4,
 						"rowSpan": 1
 					},
 					"type": "crt.NumberInput",
@@ -182,7 +226,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 3
 			},
 			{
 				"operation": "insert",
@@ -191,7 +235,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 3,
+						"row": 5,
 						"rowSpan": 1
 					},
 					"type": "crt.NumberInput",
@@ -205,7 +249,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 				},
 				"parentName": "SideAreaProfileContainer",
 				"propertyName": "items",
-				"index": 2
+				"index": 4
 			},
 			{
 				"operation": "insert",
@@ -290,6 +334,48 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 			},
 			{
 				"operation": "insert",
+				"name": "ComboBox_c7nf1y3",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 2,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrCaptain_rjfliwc",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$PDS_UsrCaptain_rjfliwc"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_xrh5jz4",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_xrh5jz4_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "ComboBox_c7nf1y3",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Manager",
 				"values": {
 					"type": "crt.ComboBox",
@@ -307,66 +393,15 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					"placeholder": "",
 					"valueDetails": null,
 					"layoutConfig": {
-						"column": 2,
+						"column": 1,
 						"colSpan": 1,
-						"row": 2,
+						"row": 3,
 						"rowSpan": 1
 					}
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 3
-			},
-			{
-				"operation": "insert",
-				"name": "UsrPassengerCount",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"colSpan": 1,
-						"row": 3,
-						"rowSpan": 1
-					},
-					"type": "crt.NumberInput",
-					"label": "$Resources.Strings.PDS_UsrPassengersCount_ltggy38",
-					"control": "$PDS_UsrPassengersCount_ltggy38",
-					"readonly": false,
-					"placeholder": "",
-					"labelPosition": "auto",
-					"tooltip": ""
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
 				"index": 4
-			},
-			{
-				"operation": "insert",
-				"name": "Country",
-				"values": {
-					"layoutConfig": {
-						"column": 1,
-						"colSpan": 1,
-						"row": 4,
-						"rowSpan": 1
-					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_UsrCountry_brm6yds",
-					"ariaLabel": "",
-					"isAddAllowed": true,
-					"showValueAsLink": false,
-					"labelPosition": "auto",
-					"controlActions": [],
-					"listActions": [],
-					"tooltip": "",
-					"control": "$PDS_UsrCountry_brm6yds",
-					"visible": true,
-					"readonly": false,
-					"placeholder": "",
-					"valueDetails": null
-				},
-				"parentName": "GeneralInfoTabContainer",
-				"propertyName": "items",
-				"index": 5
 			},
 			{
 				"operation": "insert",
@@ -390,36 +425,29 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 6
+				"index": 5
 			},
 			{
 				"operation": "insert",
-				"name": "City",
+				"name": "UsrPassengerCount",
 				"values": {
 					"layoutConfig": {
 						"column": 1,
 						"colSpan": 1,
-						"row": 5,
+						"row": 4,
 						"rowSpan": 1
 					},
-					"type": "crt.ComboBox",
-					"label": "$Resources.Strings.PDS_UsrCity_5td3mxb",
-					"ariaLabel": "",
-					"isAddAllowed": true,
-					"showValueAsLink": false,
-					"labelPosition": "auto",
-					"controlActions": [],
-					"listActions": [],
-					"tooltip": "",
-					"control": "$PDS_UsrCity_5td3mxb",
-					"visible": true,
+					"type": "crt.NumberInput",
+					"label": "$Resources.Strings.PDS_UsrPassengersCount_ltggy38",
+					"control": "$PDS_UsrPassengersCount_ltggy38",
 					"readonly": false,
 					"placeholder": "",
-					"valueDetails": null
+					"labelPosition": "auto",
+					"tooltip": ""
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
-				"index": 7
+				"index": 6
 			},
 			{
 				"operation": "insert",
@@ -443,7 +471,65 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
+				"index": 7
+			},
+			{
+				"operation": "insert",
+				"name": "Country",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrCountry_brm6yds",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": false,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$PDS_UsrCountry_brm6yds",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
 				"index": 8
+			},
+			{
+				"operation": "insert",
+				"name": "City",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 5,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.PDS_UsrCity_5td3mxb",
+					"ariaLabel": "",
+					"isAddAllowed": true,
+					"showValueAsLink": false,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"control": "$PDS_UsrCity_5td3mxb",
+					"visible": true,
+					"readonly": false,
+					"placeholder": "",
+					"valueDetails": null
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 9
 			},
 			{
 				"operation": "insert",
@@ -725,25 +811,18 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					"primaryColumnName": "GridDetail_bllkkufDS_Id",
 					"columns": [
 						{
-							"id": "f8e041cb-9971-72ed-2121-4eb364964340",
+							"id": "d35d5b5d-eed0-73c6-c328-4c24830a6f24",
 							"code": "GridDetail_bllkkufDS_UsrStartDate",
 							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrStartDate)#",
-							"dataValueType": 8,
-							"width": 141
-						},
-						{
-							"id": "1091f162-f918-c1dd-d3ea-925bc50e8697",
-							"code": "GridDetail_bllkkufDS_UsrEndDate",
-							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrEndDate)#",
 							"dataValueType": 8,
 							"width": 144
 						},
 						{
-							"id": "cb698792-c01c-64c7-101e-bc5578462a37",
-							"code": "GridDetail_bllkkufDS_CreatedOn",
-							"caption": "#ResourceString(GridDetail_bllkkufDS_CreatedOn)#",
-							"dataValueType": 7,
-							"width": 185
+							"id": "bc7bfd12-ba1f-8c49-8e69-2b873031a0f8",
+							"code": "GridDetail_bllkkufDS_UsrEndDate",
+							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrEndDate)#",
+							"dataValueType": 8,
+							"width": 133
 						},
 						{
 							"id": "648a2bd4-013a-0092-3cbe-3557f6f10724",
@@ -757,6 +836,13 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 							"code": "GridDetail_bllkkufDS_UsrCostumer",
 							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrCostumer)#",
 							"dataValueType": 10
+						},
+						{
+							"id": "cb698792-c01c-64c7-101e-bc5578462a37",
+							"code": "GridDetail_bllkkufDS_CreatedOn",
+							"caption": "#ResourceString(GridDetail_bllkkufDS_CreatedOn)#",
+							"dataValueType": 7,
+							"width": 185
 						}
 					],
 					"placeholder": false,
@@ -1012,7 +1098,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 							"sortingConfig": {
 								"default": [
 									{
-										"direction": "asc",
+										"direction": "desc",
 										"columnName": "UsrEndDate"
 									}
 								]
@@ -1030,11 +1116,6 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 										"path": "GridDetail_bllkkufDS.UsrEndDate"
 									}
 								},
-								"GridDetail_bllkkufDS_CreatedOn": {
-									"modelConfig": {
-										"path": "GridDetail_bllkkufDS.CreatedOn"
-									}
-								},
 								"GridDetail_bllkkufDS_UsrComment": {
 									"modelConfig": {
 										"path": "GridDetail_bllkkufDS.UsrComment"
@@ -1043,6 +1124,11 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 								"GridDetail_bllkkufDS_UsrCostumer": {
 									"modelConfig": {
 										"path": "GridDetail_bllkkufDS.UsrCostumer"
+									}
+								},
+								"GridDetail_bllkkufDS_CreatedOn": {
+									"modelConfig": {
+										"path": "GridDetail_bllkkufDS.CreatedOn"
 									}
 								},
 								"GridDetail_bllkkufDS_Id": {
@@ -1068,6 +1154,34 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 									"message": "#ResourceString(PassangerCountCannotBeLess)#"
 								}
 							}
+						}
+					},
+					"PDS_UsrLength_t4uw4l1": {
+						"modelConfig": {
+							"path": "PDS.UsrLength"
+						}
+					},
+					"PDS_UsrCaptain_rjfliwc": {
+						"modelConfig": {
+							"path": "PDS.UsrCaptain"
+						}
+					},
+					"PDS_UsrCaptain_rjfliwc_List": {
+						"isCollection": true,
+						"modelConfig": {
+							"sortingConfig": {
+								"default": [
+									{
+										"columnName": "Name",
+										"direction": "asc"
+									}
+								]
+							}
+						}
+					},
+					"PDS_UsrCrewCount_eytacla": {
+						"modelConfig": {
+							"path": "PDS.UsrCrewCount"
 						}
 					}
 				}
@@ -1131,14 +1245,14 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 								"UsrEndDate": {
 									"path": "UsrEndDate"
 								},
-								"CreatedOn": {
-									"path": "CreatedOn"
-								},
 								"UsrComment": {
 									"path": "UsrComment"
 								},
 								"UsrCostumer": {
 									"path": "UsrCostumer"
+								},
+								"CreatedOn": {
+									"path": "CreatedOn"
 								}
 							}
 						}

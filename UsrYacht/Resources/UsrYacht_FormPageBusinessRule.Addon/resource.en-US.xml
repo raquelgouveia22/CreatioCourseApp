@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="AddonConfig.Rules.1a3ab9f7-461b-559d-bc35-3c3877ec8d8e.Caption" Value="Show elements: Ticket Price, EUR" />
 			<Item Name="AddonConfig.Rules.52b3636c-dc48-9b8e-3189-7d4729fc5762.Caption" Value="Hide elements: Comment" />
+			<Item Name="AddonConfig.Rules.fe9cb19b-0622-c4e1-e3f7-06e54bd65168.Caption" Value="Make elements required: Comment" />
 			<Item Name="Caption" Value="Yacht form page (Business rules)" />
 		</Items>
 	</Group>
