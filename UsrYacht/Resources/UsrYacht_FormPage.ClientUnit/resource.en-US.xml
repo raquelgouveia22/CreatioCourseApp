@@ -4,6 +4,7 @@
 		<Items>
 			<Item Name="Caption" Value="Yacht form page" />
 			<Item Name="LocalizableStrings.Button_8ak6f0a_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Button_AddRentals_caption.Value" Value="Add Yacht Rentals" />
 			<Item Name="LocalizableStrings.CategoriesMultiSelect_label.Value" Value="Categories" />
 			<Item Name="LocalizableStrings.ExpansionPanel_4e85ect_title.Value" Value="Yacht rental" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_bq52orr_caption.Value" Value="New" />

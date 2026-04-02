@@ -186,7 +186,8 @@ define("UsrYachtRentalFormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**
 										}
 									}
 								},
-								"allowCopyingRecords": false
+								"allowCopyingRecords": false,
+								"attributes": {}
 							}
 						}
 					},

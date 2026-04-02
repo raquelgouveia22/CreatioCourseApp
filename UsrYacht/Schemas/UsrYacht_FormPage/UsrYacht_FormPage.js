@@ -91,7 +91,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 					"clicked": {
 						"request": "crt.RunBusinessProcessRequest",
 						"params": {
-							"processName": "UsrCalcAverageTicketPriceProcess",
+							"processName": "UsrCalcAverageTicketPriceProcessUsrYacht1",
 							"processRunType": "ForTheSelectedPage",
 							"saveAtProcessStart": true,
 							"showNotification": true,
@@ -123,6 +123,34 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 			},
 			{
 				"operation": "insert",
+				"name": "Button_AddRentals",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_AddRentals_caption)#",
+					"color": "default",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "left-icon",
+					"visible": true,
+					"icon": "filter-add-icon",
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrAutoAddYachtRentalsProcess_8c2a851",
+							"processRunType": "ForTheSelectedPage",
+							"saveAtProcessStart": true,
+							"showNotification": true,
+							"recordIdProcessParameterName": "ProcessSchemaParameter_ParentYachtId"
+						}
+					},
+					"clickMode": "default"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 1
+			},
+			{
+				"operation": "insert",
 				"name": "PushMeButton",
 				"values": {
 					"type": "crt.Button",
@@ -140,7 +168,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 1
+				"index": 2
 			},
 			{
 				"operation": "insert",
