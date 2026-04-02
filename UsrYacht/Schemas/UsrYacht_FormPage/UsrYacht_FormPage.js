@@ -825,17 +825,31 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 							"width": 133
 						},
 						{
-							"id": "648a2bd4-013a-0092-3cbe-3557f6f10724",
-							"code": "GridDetail_bllkkufDS_UsrComment",
-							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrComment)#",
-							"dataValueType": 28,
-							"width": 174
+							"id": "5bd4b263-eaa1-7dbb-75ab-a9aeec12480f",
+							"code": "GridDetail_bllkkufDS_UsrManager",
+							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrManager)#",
+							"dataValueType": 10
 						},
 						{
 							"id": "ad56556a-3e82-a906-5f4a-79b09d2212b7",
 							"code": "GridDetail_bllkkufDS_UsrCostumer",
 							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrCostumer)#",
-							"dataValueType": 10
+							"dataValueType": 10,
+							"width": 138
+						},
+						{
+							"id": "7c32e0ca-0a67-cd37-449e-3004ed760882",
+							"code": "GridDetail_bllkkufDS_UsrTotalPrice",
+							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrTotalPrice)#",
+							"dataValueType": 32,
+							"width": 168
+						},
+						{
+							"id": "648a2bd4-013a-0092-3cbe-3557f6f10724",
+							"code": "GridDetail_bllkkufDS_UsrComment",
+							"caption": "#ResourceString(GridDetail_bllkkufDS_UsrComment)#",
+							"dataValueType": 28,
+							"width": 222
 						},
 						{
 							"id": "cb698792-c01c-64c7-101e-bc5578462a37",
@@ -969,7 +983,7 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 							"MySuperValidator": {
 								"type": "usr.DGValidator",
 								"params": {
-									"minValue": 200,
+									"minValue": 500,
 									"message": "#ResourceString(PriceCannotBeLess)#"
 								}
 							}
@@ -1098,8 +1112,8 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 							"sortingConfig": {
 								"default": [
 									{
-										"direction": "desc",
-										"columnName": "UsrEndDate"
+										"direction": "asc",
+										"columnName": "UsrTotalPrice"
 									}
 								]
 							}
@@ -1116,14 +1130,24 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 										"path": "GridDetail_bllkkufDS.UsrEndDate"
 									}
 								},
-								"GridDetail_bllkkufDS_UsrComment": {
+								"GridDetail_bllkkufDS_UsrManager": {
 									"modelConfig": {
-										"path": "GridDetail_bllkkufDS.UsrComment"
+										"path": "GridDetail_bllkkufDS.UsrManager"
 									}
 								},
 								"GridDetail_bllkkufDS_UsrCostumer": {
 									"modelConfig": {
 										"path": "GridDetail_bllkkufDS.UsrCostumer"
+									}
+								},
+								"GridDetail_bllkkufDS_UsrTotalPrice": {
+									"modelConfig": {
+										"path": "GridDetail_bllkkufDS.UsrTotalPrice"
+									}
+								},
+								"GridDetail_bllkkufDS_UsrComment": {
+									"modelConfig": {
+										"path": "GridDetail_bllkkufDS.UsrComment"
 									}
 								},
 								"GridDetail_bllkkufDS_CreatedOn": {
@@ -1245,11 +1269,17 @@ define("UsrYacht_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_
 								"UsrEndDate": {
 									"path": "UsrEndDate"
 								},
-								"UsrComment": {
-									"path": "UsrComment"
+								"UsrManager": {
+									"path": "UsrManager"
 								},
 								"UsrCostumer": {
 									"path": "UsrCostumer"
+								},
+								"UsrTotalPrice": {
+									"path": "UsrTotalPrice"
+								},
+								"UsrComment": {
+									"path": "UsrComment"
 								},
 								"CreatedOn": {
 									"path": "CreatedOn"

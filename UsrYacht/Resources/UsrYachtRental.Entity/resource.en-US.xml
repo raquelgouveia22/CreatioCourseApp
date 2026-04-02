@@ -6,8 +6,10 @@
 			<Item Name="Columns.UsrComment.Caption" Value="Comment" />
 			<Item Name="Columns.UsrCostumer.Caption" Value="Costumer" />
 			<Item Name="Columns.UsrEndDate.Caption" Value="End date" />
+			<Item Name="Columns.UsrManager.Caption" Value="Yacht Manager" />
 			<Item Name="Columns.UsrParentYacht.Caption" Value="Parent yacht" />
 			<Item Name="Columns.UsrStartDate.Caption" Value="Start date" />
+			<Item Name="Columns.UsrTotalPrice.Caption" Value="Total Price, EUR" />
 		</Items>
 	</Group>
 </Resources>

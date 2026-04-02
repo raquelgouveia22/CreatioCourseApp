@@ -14,7 +14,7 @@
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_kjacnig_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.ManagerEmail_label.Value" Value="Manager's email" />
 			<Item Name="LocalizableStrings.PassangerCountCannotBeLess.Value" Value="Passangers count cannot be less than 2." />
-			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 200 EUR." />
+			<Item Name="LocalizableStrings.PriceCannotBeLess.Value" Value="Price cannot be less than 500 EUR." />
 			<Item Name="LocalizableStrings.PushMeButton_caption.Value" Value="Push me" />
 			<Item Name="LocalizableStrings.RunAvgProcessMenuItem_caption.Value" Value="Run average ticket price process" />
 			<Item Name="LocalizableStrings.RunAvgProcessMenuItem_clicked_params_notificationText.Value" Value="Process started YEAH!!!" />
